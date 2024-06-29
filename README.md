@@ -45,3 +45,21 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ## 🤔 Dúvidas?
 
 Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+
+✔🚀🌍
+Incrivel esse lab, O bootcamp começou com uma visão geral do SageMaker. Aprendi sobre suas funcionalidades, como treinamento de modelos e implantação de endpoints.
+A interface do SageMaker Studio é intuitiva e facilita o desenvolvimento de modelos,A etapa inicial envolveu a preparação dos dados. Aprendi a carregar dados do Amazon S3, o SageMaker oferece recursos para transformação de dados, como pré-processamento e engenharia de recursos. Em resumo, o bootcamp de Amazon SageMaker foi uma experiência enriquecedora. Aprendi a usar essa poderosa ferramenta para resolver problemas de ML e estou ansioso para aplicar esse conhecimento em projetos futuros. 
+
+Esses foram as metricas do meu "Analyze"
+
+Model status
+
+Avg. wQL - 0.086  # O Avg. wQL é uma métrica usada para avaliar a qualidade de modelos de previsão, especialmente em problemas de regressão. Ele mede a diferença entre os valores previstos e os valores reais, ponderando os erros com base em quantis específicos (por exemplo, 10%, 50% ou 90%). Quanto menor o Avg. wQL, melhor o desempenho do modelo.
+
+MAPE - 0.290  # O MAPE é uma métrica comum para avaliar a precisão de previsões em termos percentuais. Ele calcula a média das porcentagens de erro absoluto entre as previsões e os valores reais. Valores mais baixos indicam maior precisão.
+
+WAPE -0.152 # O WAPE é semelhante ao MAPE, mas pondera os erros com base na importância de cada observação. É útil quando diferentes pontos de dados têm diferentes relevâncias. Novamente, valores menores são desejáveis.
+
+RMSE - 1.535 # O RMSE é uma métrica de erro que mede a raiz quadrada da média dos erros quadrados entre as previsões e os valores reais. É amplamente usado em problemas de regressão. Quanto menor o RMSE, melhor o ajuste do modelo aos dados.
+
+MASE - 0.180 #O MASE é uma métrica que compara o erro absoluto médio do modelo com o erro absoluto médio de um modelo ingênuo (como a média histórica). Ele é útil para séries temporais e permite avaliar a capacidade de generalização do modelo. Valores próximos a 1 indicam que o modelo é tão bom quanto o modelo ingênuo.
